@@ -1,0 +1,7 @@
+set(teensy_x86_encoder_stubs_VERSION "@teensy_x86_encoder_stubs_VERSION@")
+
+@PACKAGE_INIT@
+
+set_and_check(teensy_x86_encoder_stubs_INCLUDE_DIR "@INCLUDE_INSTALL_DIR@")
+
+check_required_components(teensy_x86_encoder_stubs)
