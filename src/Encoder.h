@@ -43,7 +43,7 @@ typedef struct {
 class Encoder
 {
 public:
-	Encoder() {
+	Encoder(int a=0, int b=0) {
 		encoder.position = 0;
 		encoder.state = 0;
 	}
